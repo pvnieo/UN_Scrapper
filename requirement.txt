@@ -1,2 +1,2 @@
 tqdm
-bs4
+beautifulsoup4
