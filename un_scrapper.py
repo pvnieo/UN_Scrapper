@@ -26,7 +26,7 @@ def dump(countries):
     print("# Countries Of the united nations", file=f)
     for country, info in countries.items():
       print("## {} (_{}_)".format(country, info["birth"]), file=f)
-      print('\t{}'.format(info['description'].replace('\n', '\n\t')), file=f)
+      print('{}'.format(info['description'].replace('\n', '\n\t')), file=f)
 
 def main():
   with urllib.request.urlopen(page_url) as response:

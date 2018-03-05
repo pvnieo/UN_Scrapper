@@ -8,3 +8,8 @@ un_scrapper tourne sous python >= 3.6, utilisez pip pour installer les dépendan
 ```
 pip3 install -r requirements.txt
 ```
+
+## Usage
+```
+python3 un_srapper.py
+```
